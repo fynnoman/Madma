@@ -1,4 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MADMA - IT-Dienstleistungen Website
+
+Eine moderne, animierte Website für MADMA IT-Dienstleistungen mit Next.js, React, TypeScript, Tailwind CSS und Framer Motion.
+
+## 🚀 Features
+
+- **Moderne Animationen** mit Framer Motion
+- **Scroll-Effekte** und Parallax-Scrolling
+- **Sticky Navigation** mit animierten Übergängen
+- **Variable Scroll-Geschwindigkeiten** für verschiedene Elemente
+- **Responsive Design** für alle Bildschirmgrößen
+- **Abgerundete Kanten** (18-52px Radius) für moderne Ästhetik
+- **Dark Theme** mit Gradient-Effekten
+
+## 🛠️ Tech Stack
+
+- **Next.js 15+** - React Framework mit App Router
+- **React 19+** - UI Library
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS Framework
+- **Framer Motion** - Animation Library
+- **Turbopack** - Schneller Bundler für Entwicklung
 
 ## Getting Started
 
@@ -6,19 +27,61 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Projektstruktur
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+madma/
+├── src/
+│   ├── app/
+│   │   ├── globals.css      # Globale Styles
+│   │   ├── layout.tsx       # Root Layout
+│   │   └── page.tsx         # Homepage mit allen Sections
+│   └── components/
+│       ├── Navigation.tsx   # Sticky Navigation Bar
+│       └── ParallaxSection.tsx  # Parallax Scroll Komponente
+├── public/                  # Statische Assets
+└── .github/
+    └── copilot-instructions.md  # Copilot Anweisungen
+```
+
+## 🎨 Design Guidelines
+
+- Alle Ecken haben einen Border-Radius zwischen 18px und 52px
+- Verwendung von Gradient-Effekten für Text und Hintergründe
+- Scroll-basierte Animationen mit Framer Motion
+- Sticky Positioning für Navigation
+- Parallax-Effekte mit verschiedenen Geschwindigkeiten
+
+## 📞 Kontakt
+
+**MADMA - Mario Dohr**
+- 📍 Rastbachweg 20, 66113 Saarbrücken
+- 📞 0681-754545
+- 📱 0171-3666687
+- ✉️ m.dohr@madma.de
+- 🏢 USt-ID: DE173951491
+
+## 🏢 Dienstleistungen
+
+- Hardware & Software Beratung, Verkauf und Installation
+- Netzwerktechnik
+- Videoüberwachung
+- Smart Home Automation (Hausautomation)
+- Softwareentwicklung
+
+## 🔧 Build & Deployment
+
+```bash
+# Production Build erstellen
+npm run build
+
+# Production Build starten
+npm start
+```
 
 ## Learn More
 
