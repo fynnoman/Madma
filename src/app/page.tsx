@@ -188,7 +188,7 @@ export default function Home() {
                 ease: "easeInOut",
               }}
             >
-              MADMA
+              MADMADE
             </motion.h1>
           </motion.div>
 
@@ -388,7 +388,7 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">
-                Über MADMA
+                Über MADMADE
               </h2>
               <div className="w-20 h-1 bg-blue-600 mb-8"></div>
               <div className="space-y-4 text-slate-600 text-lg leading-relaxed">
@@ -674,7 +674,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-blue-400">MADMA</h3>
+              <h3 className="text-2xl font-bold mb-4 text-blue-400">MADMADE</h3>
               <p className="text-slate-400">
                 Ihr Partner für professionelle IT-Dienstleistungen in Saarbrücken
               </p>
@@ -701,8 +701,11 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-            <p className="mb-2">© 2026 MADMA - Mario Dohr. Alle Rechte vorbehalten.</p>
+            <p className="mb-2">© 2026 MADMADE - Mario Dohr. Alle Rechte vorbehalten.</p>
             <p className="text-sm">USt-ID: DE173951491</p>
+          </div>
+          <div className="mt-6 text-center">
+            <p className="text-xs text-slate-500">designed by fylu - marketing <a href="https://fylumarketing.de" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors">fylumarketing.de</a></p>
           </div>
         </div>
       </footer>

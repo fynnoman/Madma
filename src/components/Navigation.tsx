@@ -40,7 +40,7 @@ export default function Navigation() {
           }`}
           whileHover={{ scale: 1.05 }}
         >
-          MADMA
+          MADMADE
         </motion.a>
 
         <ul className="hidden md:flex gap-8">
