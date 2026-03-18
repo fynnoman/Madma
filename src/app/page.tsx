@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 import Navigation from '@/components/Navigation';
+import Image from 'next/image';
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -674,7 +675,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-blue-400">MADMADE</h3>
+              <Image
+                src="/madma-logo.png"
+                alt="MADMA Logo"
+                width={160}
+                height={45}
+                className="h-10 w-auto brightness-0 invert mb-4"
+              />
               <p className="text-slate-400">
                 Ihr Partner für professionelle IT-Dienstleistungen in Saarbrücken
               </p>

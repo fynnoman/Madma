@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,12 +36,19 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <motion.a
           href="#"
-          className={`text-2xl font-bold transition-colors duration-300 ${
-            isScrolled ? 'text-blue-600' : 'text-white'
-          }`}
+          className="flex items-center"
           whileHover={{ scale: 1.05 }}
         >
-          MADMADE
+          <Image
+            src="/madma-logo.png"
+            alt="MADMA Logo"
+            width={140}
+            height={40}
+            className={`h-9 w-auto transition-all duration-300 ${
+              isScrolled ? '' : 'brightness-0 invert'
+            }`}
+            priority
+          />
         </motion.a>
 
         <ul className="hidden md:flex gap-8">
