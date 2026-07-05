@@ -44,9 +44,7 @@ export default function Navigation() {
             alt="MADMA Logo"
             width={140}
             height={40}
-            className={`h-9 w-auto transition-all duration-300 ${
-              isScrolled ? '' : 'brightness-0 invert'
-            }`}
+            className="h-9 w-auto transition-all duration-300"
             priority
           />
         </motion.a>

@@ -173,9 +173,9 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
             style={{ perspective: '1000px' }}
+            className="mb-6 flex justify-center"
           >
-            <motion.h1 
-              className="text-7xl md:text-8xl lg:text-9xl font-bold mb-6 text-blue-400"
+            <motion.div
               style={{
                 transformStyle: 'preserve-3d',
               }}
@@ -188,9 +188,17 @@ export default function Home() {
                 repeat: Infinity,
                 ease: "easeInOut",
               }}
+              className="w-full max-w-3xl md:max-w-4xl lg:max-w-5xl"
             >
-              MADMADE
-            </motion.h1>
+              <Image
+                src="/madma-logo.png"
+                alt="MADMA Logo"
+                width={1200}
+                height={600}
+                className="w-full h-auto drop-shadow-2xl"
+                priority
+              />
+            </motion.div>
           </motion.div>
 
           <motion.p
