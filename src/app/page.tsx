@@ -688,7 +688,7 @@ export default function Home() {
                 alt="MADMA Logo"
                 width={160}
                 height={45}
-                className="h-10 w-auto brightness-0 invert mb-4"
+                className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400">
                 Ihr Partner für professionelle IT-Dienstleistungen in Saarbrücken
@@ -718,6 +718,14 @@ export default function Home() {
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
             <p className="mb-2">© 2026 MADMADE - Mario Dohr. Alle Rechte vorbehalten.</p>
             <p className="text-sm">USt-ID: DE173951491</p>
+            <div className="mt-4 flex justify-center gap-6 text-sm">
+              <a href="/impressum" className="text-slate-400 hover:text-blue-400 transition-colors">
+                Impressum
+              </a>
+              <a href="/datenschutz" className="text-slate-400 hover:text-blue-400 transition-colors">
+                Datenschutz
+              </a>
+            </div>
           </div>
           <div className="mt-6 text-center">
             <p className="text-xs text-slate-500">designed by fylu - marketing <a href="https://fylumarketing.de" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors">fylumarketing.de</a></p>
